@@ -1,0 +1,155 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Wix+Madefor+Text:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    
+}
+.hero-section{
+background-color: #6F4AE8;
+width: 100%;
+height: 100vh;
+background-image: url(Media/bnr1_bg.png);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title{
+    text-decoration: none;
+}
+.title h1{
+    color: rgb(54, 43, 43);
+    font-family: "Open Sans";
+    
+}
+.logo img{
+    width: 100px;
+    margin-left: 40px;
+}
+
+nav{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px rgb(73, 66, 125);
+    box-sizing: border-box;
+    padding: 10px;
+    height: 80px;
+    background:rgb(227, 229, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    margin-right:50px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  
+}
+.links:hover{
+    color: blueviolet;
+    transition: 0.2s;
+}
+
+
+.Sign{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.button1 {
+    display: flex;
+    background-color: #035de5;
+    
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.175rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: .6s ease;
+    text-decoration: none;
+    color: #ffffff;
+
+  }
+  
+ 
+  
+  .button1 svg {
+    height: 30px;
+  }
+  
+  .button1:hover {
+    box-shadow: none;
+    background-color: #9176e8;
+  }
+  button{
+    outline: none;
+    border: none;
+  }
+.button2 {
+    display: flex;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #5e4eed;
+   
+    padding: 0.5rem 1.5rem;
+    font-size: 1.175rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: .5s ease;
+    font-family: 'Open Sans';
+    text-decoration: none;
+  }
+  
+  .button2 svg {
+    height: 30px;
+  }
+  
+  .button2:hover {
+    box-shadow: none;
+    
+    color:black;
+  }
+  
+
+
+   
