@@ -1,0 +1,70 @@
+﻿*
+{
+    padding:3px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body {
+  font-family:sans-serif;
+   background-image:url(res2.JPG);
+      }
+.menu-bar {
+    text-align:center;
+    background-color:beige;
+}
+    .menu-bar ul {
+        display:inline-flex;
+        list-style-type:none;
+        color:blanchedalmond;
+    }
+    .menu-bar ul li{
+        width:190px;
+        margin:5px;
+        padding:0px;
+    }
+    .menu-bar ul li a{
+        text-decoration:none;
+        color:black;
+    }
+    .active, .menu-bar ul li :hover{
+        background:#ba9920bb;
+        border-radius:3px;
+    }
+    .menu-bar .fa{
+        margin-right:8px;
+    }
+  .sub-menu-1{
+       display:none;
+      }
+   .menu-bar ul li:hover .sub-menu-1 {
+         position:absolute; display:block;  margin-top:10px; margin-left:-15px;
+    } 
+     .menu-bar ul li:hover .sub-menu-1 ul{
+             display:block; margin:10px;
+       }
+     .menu-bar ul li:hover .sub-menu-1 ul li{
+          width:150px; padding:10px; border-bottom:1px dotted orange;
+          background:beige; border-radius:0; text-align:left;
+           }
+       .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+               border-bottom:none;
+           }
+        .menu-bar ul li :hover .sub-menu-1 ul li a:hover{
+                color:orange;
+                background:gold;
+            }
+       .fa-angle-right{
+             float:right; color:black;
+          }
+       .sub-menu-2{
+           display:none;
+           }
+       .hover-me:hover .sub-menu-2{
+              position:absolute; display:block; margin-top:-50px; margin-left:140px;
+          }
+      .logo{
+          flex-basis:20%; font-size:30px; color:brown; 
+      }
+      .home{
+           flex-basis:20%; font-size:20px; color:black;
+         }
