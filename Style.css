@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@500&family=Roboto+Slab&family=Wix+Madefor+Text:ital,wght@0,400;0,500;1,400&display=swap');
 
 
+<<<<<<< HEAD
+=======
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@500&family=Roboto+Slab&family=Wix+Madefor+Text:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+>>>>>>> d2264947a6af0d522f3bf2ba0202c1b8151e3762
 *{
     padding: 0;
     margin: 0;
@@ -378,6 +386,7 @@ nav{
 
   }
   .left{
+<<<<<<< HEAD
     width: 40%;
     height: 100%;
     position: relative;
@@ -418,3 +427,21 @@ nav{
     
     
   }
+=======
+    width: 50%;
+    height: 100%;
+   
+    overflow: hidden;
+  }
+  .left img{
+    width: 450px;
+    padding: 100px 0px 0px 120px;
+  }
+  .right{
+    width: 50%;
+    height: 100%;
+    
+  }
+
+   
+>>>>>>> d2264947a6af0d522f3bf2ba0202c1b8151e3762

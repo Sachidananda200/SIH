@@ -1,6 +1,6 @@
 body{
   margin:0; padding:0;
-background-size:cover; background-position:center; background-image:url(lock.WEBP);
+background-size:cover; background-position:center; background-image:url(Media/lock.WEBP);
 }
 .sign-up-form{
 width:300px; box-shadow:0 0 3px 0 rgba(0,0,0,0.3); background:#fff; padding:20px; margin:8% auto; text-align:center;
