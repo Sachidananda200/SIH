@@ -6,8 +6,11 @@
     padding: 0;
     margin: 0;
 }
+/* Apply a mobile-first approach */
 
+/* Base styles for all screen sizes */
 
+/* Add a media query for larger screens */
 @media (min-width: 768px) {
   .menu {
       margin-right: 100px; /* Adjust spacing for larger screens */
